@@ -3,7 +3,7 @@
 
 ## Dasar Teori
 
-C++ merupakan bahasa pemrograman yang dikembangkan oleh Bjarne Stroustrup pada awal tahun 1980-an pada Bell Laboratories. C++ merupakan pengembangan dari bahasa C menggunakan penambahan konsep pemrograman berorientasi objek (Object-Oriented Programming / OOP), sehingga dapat digunakan untuk membangun perangkat lunak dari skala kecil hingga besar dengan lebih efisien.C++ tetap menjadi salah satu bahasa pemrograman penting yang digunakan untuk pengembangan berbagai jenis perangkat lunak sampai saat ini.
+C++ adalah bahasa pemrograman yang lahir di Bell Laboratories pada awal tahun 1980-an, diciptakan oleh Bjarne Stroustrup sebagai pengembangan dari bahasa C. Stroustrup menambahkan konsep Pemrograman Berorientasi Objek (OOP), menjadikannya alat yang efisien untuk membangun perangkat lunak, mulai dari aplikasi kecil hingga sistem skala besar. Hingga saat ini, C++ tetap fundamental dan banyak digunakan dalam pengembangan berbagai jenis software.
 ## Guided
 
 ### soal 1 (Aritmatika)
@@ -21,7 +21,7 @@ C++ merupakan bahasa pemrograman yang dikembangkan oleh Bjarne Stroustrup pada a
     return 0;
     }
 
-Kode C++ di atas adalah program sederhana yang menghitung nilai variabel Z. pertama deklarasi dan inisialisasi Tiga variabel, W, X, dan Y, dideklarasikan sebagai bilangan bulat (int). Satu variabel, Z, dideklarasikan sebagai bilangan pecahan (float), nilai awal diberikan kepada variabel int: X=7, Y=3, dan W=1. Program mencetak teks "Nilai z = " diikuti dengan nilai yang tersimpan dalam Z.
+Program C++ sederhana ini bertujuan untuk menghitung dan menampilkan variabel Z. Pada awalnya, tiga variabel bilangan bulat (W, X, Y) dideklarasikan dan diinisialisasi berturut-turut dengan nilai 1, 7, dan 3. Variabel hasil Z dideklarasikan sebagai bilangan pecahan (float) untuk menampung nilai akhir. Program kemudian mencetak output yang berbunyi "Nilai z = " bersamaan dengan nilai yang telah dihitung dan disimpan dalam Z.
 
 > Output
 > ![Screenshot bagian x](Screenshot_aritmatika.jpg)
@@ -146,7 +146,7 @@ int main()
 }
 ```
 
-Program C++ ini adalah program dasar yang berfungsi untuk menentukan status hari (Hari Kerja atau Hari Libur) berdasarkan kode angka (1 hingga 7) yang dimasukkan oleh pengguna. Program ini menggunakan struktur kontrol switch-case untuk mengevaluasi input dan memberikan respons yang sesuai. Pertama adalah memetakan input bilangan bulat (kode_hari) menjadi salah satu dari tiga kategori: Hari Kerja, Hari Libur, atau Kode Masukan Salah. Program menampilkan panduan kode hari kepada pengguna 1 (Senin) hingga 5 (Jumat) 6 (Sabtu) dan 7 (Minggu) Input pengguna disimpan dalam variabel int bernama kode_hari. Jika input pengguna adalah nilai lain selain 1 sampai 7 (misalnya 0 atau 8), program menjalankan blok default dan mencetak pesan kesalahan "Kode masukan salah!!!".
+Didesain untuk mengklasifikasikan input numerik, program C++ ini menentukan apakah suatu hari adalah Hari Kerja atau Hari Libur. Setelah pengguna memasukkan kode hari (1-7), nilai disimpan dalam variabel int kode_hari. Evaluasi dilakukan melalui konstruksi switch-case, memetakan angka 1 sampai 5 ke status kerja dan 6 sampai 7 ke status libur. Semua input di luar batas (non-1 hingga 7) ditangani oleh kasus default, yang mengeluarkan error message yang menunjukkan kode masukan tidak valid.
 
 > Output
 > ![Screenshot bagian x](screenshot_kondisi.jpg)
@@ -184,7 +184,7 @@ int main()
     return 0;
 }
 ```
-Program C++ ini adalah program sederhana yang dirancang untuk mencetak pesan secara berulang menggunakan struktur perulangan do-while, dengan jumlah perulangan ditentukan oleh input pengguna. Kode ini memiliki dua blok, tetapi hanya blok kedua (yang tidak dikomentari) yang akan dieksekusi, yang mendemonstrasikan perulangan. Dua variabel bilangan bulat (int) dideklarasikan Berfungsi sebagai counter atau penghitung perulangan, diinisialisasi dengan nilai 1, digunakan untuk menyimpan jumlah atau batas perulangan yang akan dimasukkan pengguna. Lalu program meminta pengguna memasukkan nilai, yang langsung disimpan ke dalam variabel. Program menggunakan do-while, yang menjamin blok kode di dalamnya dieksekusi minimal satu kali, bahkan jika kondisi while salah sejak awal.
+Inti dari program C++ ini adalah menunjukkan cara kerja struktur perulangan do-while untuk mencetak pesan berulang. Program dimulai dengan deklarasi dua variabel bilangan bulat yang diperlukan: satu variabel penghitung (dimulai dari 1) dan satu variabel untuk menangkap jumlah perulangan yang diinginkan pengguna. Setelah menerima nilai batas dari pengguna, perulangan do-while dieksekusi. Karena sifatnya, perulangan ini memastikan bahwa kode di dalamnya selalu berjalan setidaknya satu kali. Perlu diperhatikan bahwa, hanya blok kode yang aktif (bukan yang dikomentari) yang akan dipertimbangkan dalam eksekusi perulangan ini.
 
 
 
