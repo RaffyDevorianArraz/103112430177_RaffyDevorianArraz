@@ -587,7 +587,7 @@ int main() {
 ```
 
 > Output
-> ![Screenshot bagian x](https://github.com/Nashiw/Laporan-Praktikum/blob/main/Modul%205/jawaban%201.png)
+> ![Screenshot bagian x](../modul5/output/1.png)
 
 Program ini adalah implementasi queue (antrian) menggunakan singly linked list, di mana setiap node menyimpan nama pembeli dan pesanan mereka. Program menyediakan menu untuk menambahkan antrian, melayani pembeli di depan antrian, menampilkan seluruh daftar antrian beserta totalnya, serta mencari pembeli tertentu berdasarkan nama. Struktur linked list memungkinkan penambahan dan penghapusan elemen secara dinamis tanpa harus menggeser data lain, sehingga antrian dapat dikelola secara efisien.
 
@@ -836,7 +836,7 @@ int main() {
 ```
 
 > Output
-> ![Screenshot bagian x](https://github.com/Nashiw/Laporan-Praktikum/blob/main/Modul%205/jawaban%202.png)
+> ![Screenshot bagian x](../modul5/output/2.png)
 
 Program ini menggunakan singly linked list untuk menyimpan data buku, di mana setiap node berisi ISBN, judul, dan penulis. Pengguna dapat menambahkan, menghapus, memperbarui, menampilkan seluruh buku, atau mencari buku berdasarkan ISBN, judul, atau penulis. Dengan struktur linked list, penambahan dan penghapusan data dilakukan secara dinamis tanpa harus menggeser elemen lain, sehingga lebih fleksibel dibanding array. Fitur tambahan seperti menampilkan total buku dan konfirmasi perubahan membuat program lebih informatif bagi pengguna.
 
