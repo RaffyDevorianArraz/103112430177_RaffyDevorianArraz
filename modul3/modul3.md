@@ -146,14 +146,11 @@ int main() {
 ```
 
 > Output
-> ![Screenshot bagian x](https://github.com/Nashiw/Laporan-Praktikum/blob/main/Modul%203/jawaban%201.png)
+> ![Screenshot bagian x](../modul3/output/1.png)
 
 Program ini menggunakan struct untuk menyimpan dan mengelola data beberapa mahasiswa yang mencakup nama, NIM, nilai UTS, UAS, tugas, serta nilai akhirnya. Perhitungan nilai akhir dilakukan dengan fungsi hitungNilaiAkhir() yang menerapkan bobot tertentu untuk setiap komponen nilai. Data dimasukkan melalui fungsi inputMahasiswa() dengan parameter referensi agar setiap perubahan tersimpan langsung pada objek mahasiswa. Setelah semua data diinput, fungsi tampilMahasiswa() menampilkan hasilnya secara terstruktur. Program ini mencerminkan penerapan konsep struct, fungsi, array, dan referensi dalam pengolahan data sederhana di C++.
 
 ### Soal 2
-> ![Screenshot bagian x](https://github.com/Nashiw/Laporan-Praktikum/blob/main/Modul%203/Screenshot%202025-10-13%20181006.png)
-
-
 ### pelajaran.h
 ```go
 #ifndef PELAJARAN_H_INCLUDED
@@ -210,7 +207,7 @@ int main() {
 ```
 
 > Output
-> ![Screenshot bagian x](https://github.com/Nashiw/Laporan-Praktikum/blob/main/Modul%203/jawaban%202.png)
+> ![Screenshot bagian x](../modul3/output/2.png)
 
 Program ini menerapkan konsep modularisasi dengan header file (.h) dan implementasi terpisah (.cpp) dalam C++. Struct pelajaran digunakan untuk menyimpan data nama dan kode mata pelajaran. Fungsi create_pelajaran() membuat dan mengembalikan objek pelajaran berdasarkan input nama serta kode, sedangkan tampil_pelajaran() menampilkan informasi tersebut ke layar. Fungsi main() memanggil keduanya untuk menampilkan data pelajaran “Struktur Data” dengan kode “STD”. Pendekatan ini membuat program lebih terstruktur, mudah dirawat, dan sesuai praktik pemrograman terorganisir di C++.
 
@@ -296,7 +293,7 @@ int main() {
 ```
 
 > Output
-> ![Screenshot bagian x](https://github.com/Nashiw/Laporan-Praktikum/blob/main/Modul%203/jawaban%203.png))
+> ![Screenshot bagian x](../modul3/output/3.png))
 
 Program ini menunjukkan penerapan fungsi, array 2 dimensi, referensi, dan pointer dalam C++. Fungsi tampilArray() menampilkan isi matriks, tukarPosisi() menukar elemen antar dua matriks berdasarkan indeks tertentu, sedangkan tukarPointer() menukar nilai dua variabel melalui pointer. Konsep ini memperlihatkan bagaimana data dapat dimanipulasi secara langsung baik dengan referensi (&) maupun pointer (*), sehingga program lebih fleksibel dalam mengubah nilai di memori tanpa harus mengembalikannya melalui return statement.
 
