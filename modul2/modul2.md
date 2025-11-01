@@ -257,7 +257,7 @@ int main() {
 ```
 
 > Output
-> ![Screenshot bagian x](https://github.com/Nashiw/Laporan-Praktikum/blob/main/modul%202/jawaban%20no%201.png)
+> ![Screenshot bagian x](../modul2/output/1.png)
 
 Program ini digunakan untuk menampilkan hasil transpose dari matriks 3×3. Proses transpose dilakukan dengan menukar posisi baris menjadi kolom dan sebaliknya, yaitu transpose[j][i] = matriks[i][j]. Setelah proses tersebut, program menampilkan matriks awal dan hasil transposenya secara terpisah. Konsep ini penting dalam pengolahan data berbentuk matriks, terutama pada bidang komputasi numerik, grafika komputer, dan operasi aljabar linear.
 
@@ -294,6 +294,6 @@ int main() {
 ```
 
 > Output
-> ![Screenshot bagian x](https://github.com/Nashiw/Laporan-Praktikum/blob/main/modul%202/jawaban%20no%202.png))
+> ![Screenshot bagian x](../modul2/output/2.png)
 
 Program ini menunjukkan penerapan fungsi dengan parameter referensi (call by reference) dalam C++. Fungsi kuadratkan(int &x) menerima variabel sebagai referensi (dengan tanda &), sehingga setiap perubahan yang dilakukan pada x di dalam fungsi juga mengubah variabel aslinya di luar fungsi. Dalam contoh ini, nilai awal 5 diproses menjadi 25 tanpa perlu mengembalikan nilai menggunakan return statement. Konsep ini efisien karena tidak membuat salinan data baru dan memungkinkan modifikasi langsung terhadap variabel asli.
