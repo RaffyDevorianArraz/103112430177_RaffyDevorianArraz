@@ -524,7 +524,7 @@ int main() {
 ```
 
 > Output
-> ![Screenshot bagian x](https://github.com/Nashiw/Laporan-Praktikum/blob/main/Modul%206/Screenshot%202025-10-28%20113003.png)
+> ![Screenshot bagian x](../modul6/output/1.png)
 
 Program akan meminta pengguna memasukkan data kendaraan, menampilkan daftar kendaraan, mencari kendaraan berdasarkan nomor polisi, serta menghapus data kendaraan tertentu. Doubly Linked List digunakan di sini karena setiap node memiliki pointer next dan prev, sehingga memungkinkan traversal data dari depan maupun belakang dan mempermudah operasi penyisipan maupun penghapusan pada posisi manapun dalam list.
 
