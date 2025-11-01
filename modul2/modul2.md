@@ -227,13 +227,14 @@ int main() {
 
     int transpose[3][3];
 
+    // Proses transpose: menukar baris dengan kolom
     for (int i = 0; i < 3; i++) {
         for (int j = 0; j < 3; j++) {
             transpose[j][i] = matriks[i][j];
         }
     }
 
-    cout << "Matriks Awal:" << endl;
+    cout << "=== Matriks Awal ===" << endl;
     for (int i = 0; i < 3; i++) {
         for (int j = 0; j < 3; j++) {
             cout << matriks[i][j] << " ";
@@ -241,7 +242,7 @@ int main() {
         cout << endl;
     }
 
-    cout << "\nMatriks Hasil Transpose:" << endl;
+    cout << "\n=== Matriks Transpose ===" << endl;
     for (int i = 0; i < 3; i++) {
         for (int j = 0; j < 3; j++) {
             cout << transpose[i][j] << " ";
@@ -249,16 +250,16 @@ int main() {
         cout << endl;
     }
 
+    cout << "\nProses transpose berhasil dilakukan!" << endl;
+
     return 0;
 }
-
 ```
 
 > Output
 > ![Screenshot bagian x](https://github.com/Nashiw/Laporan-Praktikum/blob/main/modul%202/jawaban%20no%201.png)
 
-Program di atas berfungsi untuk melakukan transpose pada sebuah matriks berukuran 3x3 menggunakan bahasa C++. Pertama, matriks awal diinisialisasi dengan elemen bernilai 1 hingga 9. Kemudian, dibuat matriks baru bernama `transpose` untuk menyimpan hasil penukaran baris dan kolom. Proses transpose dilakukan dengan menggunakan dua perulangan bersarang, di mana setiap elemen `matriks[i][j]` ditukar posisinya menjadi `transpose[j][i]`, sehingga baris menjadi kolom dan sebaliknya. Setelah proses selesai, program menampilkan matriks awal dan matriks hasil transpose ke layar, sehingga pengguna dapat melihat perbedaan antara keduanya.
-
+Program ini digunakan untuk menampilkan hasil transpose dari matriks 3×3. Proses transpose dilakukan dengan menukar posisi baris menjadi kolom dan sebaliknya, yaitu transpose[j][i] = matriks[i][j]. Setelah proses tersebut, program menampilkan matriks awal dan hasil transposenya secara terpisah. Konsep ini penting dalam pengolahan data berbentuk matriks, terutama pada bidang komputasi numerik, grafika komputer, dan operasi aljabar linear.
 
 ### Soal 2
 
@@ -274,17 +275,18 @@ Nilai setelah dikuadratkan: 25
 using namespace std;
 
 void kuadratkan(int &x) {
-    x = x * x;
+    x = x * x; // Mengubah nilai x menjadi hasil kuadratnya
 }
 
 int main() {
     int nilai = 5;
 
-    cout << "Nilai awal: " << nilai << endl;
+    cout << "=== Program Mengkuadratkan Bilangan ===" << endl;
+    cout << "Nilai awal              : " << nilai << endl;
 
-    kuadratkan(nilai);
+    kuadratkan(nilai); // Pemanggilan fungsi dengan referensi
 
-    cout << "Nilai setelah dikuadratkan: " << nilai << endl;
+    cout << "Nilai setelah dikuadratkan : " << nilai << endl;
 
     return 0;
 }
@@ -294,9 +296,4 @@ int main() {
 > Output
 > ![Screenshot bagian x](https://github.com/Nashiw/Laporan-Praktikum/blob/main/modul%202/jawaban%20no%202.png))
 
-Program di atas digunakan untuk **mengkuadratkan sebuah bilangan menggunakan konsep *call by reference*** dalam bahasa C++. Variabel `nilai` diinisialisasi dengan angka 5, lalu ditampilkan sebagai nilai awal. Fungsi `kuadratkan(int &x)` menerima parameter berupa *reference* (`&`), sehingga setiap perubahan pada variabel `x` di dalam fungsi akan langsung mengubah nilai asli di luar fungsi. Di dalam fungsi, nilai `x` dikalikan dengan dirinya sendiri (`x = x * x`), sehingga hasilnya adalah kuadrat dari nilai awal. Setelah fungsi dipanggil, program menampilkan nilai yang sudah dikuadratkan, yaitu 25.
-## Referensi
-
-1. https://www.w3schools.com/cpp/cpp_arrays.asp
-2. https://www.w3schools.com/cpp/cpp_references.asp
-3. https://www.w3schools.com/cpp/cpp_pointers.asp
+Program ini menunjukkan penerapan fungsi dengan parameter referensi (call by reference) dalam C++. Fungsi kuadratkan(int &x) menerima variabel sebagai referensi (dengan tanda &), sehingga setiap perubahan yang dilakukan pada x di dalam fungsi juga mengubah variabel aslinya di luar fungsi. Dalam contoh ini, nilai awal 5 diproses menjadi 25 tanpa perlu mengembalikan nilai menggunakan return statement. Konsep ini efisien karena tidak membuat salinan data baru dan memungkinkan modifikasi langsung terhadap variabel asli.
