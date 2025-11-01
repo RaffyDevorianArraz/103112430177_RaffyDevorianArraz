@@ -224,7 +224,7 @@ int main() {
 ```
 
 > Output
-> ![Screenshot bagian x](https://github.com/Nashiw/Laporan-Praktikum/blob/main/LAPRAK/jawaban%201.png)
+> ![Screenshot bagian x](../modul1/output/1.png)
 
 Program tersebut adalah kalkulator sederhana yang dibuat dengan C++. Cara kerjanya, pengguna diminta memasukkan dua bilangan, lalu program otomatis menampilkan hasil penjumlahan, pengurangan, perkalian, dan pembagian dari kedua bilangan tersebut. Untuk operasi bagi, program juga sudah diberi pengaman: kalau bilangan kedua yang dimasukkan adalah nol, program akan memberi tahu bahwa pembagian tidak bisa dilakukan. Jadi, program ini bisa membantu menghitung operasi dasar secara cepat dan aman langsung lewat terminal.
 
@@ -312,7 +312,7 @@ int main() {
 ```
 
 > Output
-> ![Screenshot bagian x](https://github.com/Nashiw/Laporan-Praktikum/blob/main/LAPRAK/jawaban%202.png)
+> ![Screenshot bagian x](../modul1/output/2.png)
 
 Program C++ tersebut dibuat untuk mengonversi angka antara 0 hingga 100 menjadi tulisan dalam bahasa Indonesia. Ketika pengguna memasukkan angka, program lebih dulu memeriksa apakah angkanya valid; jika tidak, akan muncul pesan bahwa input berada di luar jangkauan. Angka 0 ditampilkan sebagai “nol” dan angka 100 sebagai “seratus”. Untuk bilangan di bawah 12, program langsung menuliskan sesuai sebutan dasarnya, sedangkan bilangan 12 sampai 19 ditampilkan dengan format “... belas”. Sementara itu, angka 20 sampai 99 dipecah menjadi puluhan dan satuan, lalu digabungkan sehingga membentuk tulisan yang sesuai, contohnya angka 42 menjadi “empat puluh dua”. Dengan cara ini, program dapat menampilkan angka dalam bentuk kata yang lebih jelas dan mudah dipahami.
 
@@ -367,7 +367,7 @@ int main() {
 ```
 
 > Output
-> ![Screenshot bagian x](https://github.com/Nashiw/Laporan-Praktikum/blob/main/LAPRAK/jawaban%203.png)
+> ![Screenshot bagian x](../modul1/output/3.png)
 
 Program ini menghasilkan pola simetris angka dan bintang berdasarkan input pengguna. Dimulai dari baris dengan angka menurun di kiri, bintang di tengah, dan angka menaik di kanan, kemudian pola mengecil secara bertahap hingga tersisa satu bintang di bagian bawah. Setiap baris diberi spasi di awal untuk menjaga kesimetrisan tampilan, menciptakan bentuk seperti segitiga terbalik yang berpusat pada simbol `*`.
 
