@@ -309,7 +309,7 @@ int main() {
 ```
 
 > Output
-> ![Screenshot bagian x](https://github.com/Nashiw/Laporan-Praktikum/blob/main/Modul%204/jawaban%201.png)
+> ![Screenshot bagian x](../modul4/output/1.png)
  
 Program ini mengimplementasikan queue (antrian) menggunakan linked list untuk mencatat pembeli dan pesanan mereka. Node menyimpan nama dan pesanan, dengan pointer next menghubungkan node secara linear. Program menyediakan menu interaktif untuk menambahkan pembeli ke antrian (enqueue), melayani pembeli dari depan (dequeue), dan menampilkan seluruh antrian beserta jumlah orang yang sedang menunggu. Struktur linked list memungkinkan antrian bersifat dinamis tanpa batasan ukuran tetap, sehingga elemen bisa ditambahkan atau dihapus dengan mudah.
 
@@ -401,7 +401,7 @@ int main() {
 ```
 
 > Output
-> ![Screenshot bagian x](https://github.com/Nashiw/Laporan-Praktikum/blob/main/Modul%204/jawaban%202.png)
+> ![Screenshot bagian x](../modul4/output/2.png)
 
 Program ini membuat singly linked list yang memungkinkan penambahan node secara dinamis di akhir list. Fitur utama meliputi menampilkan linked list dan membalik urutan node menggunakan pointer (reverseList). Dengan input dari pengguna, setiap node berisi nilai integer, dan setelah list dibalik, urutan node menjadi terbalik tanpa membuat list baru. Linked list ini efisien karena manipulasi elemen dilakukan melalui pointer tanpa memindahkan seluruh data di memori.
 
