@@ -87,8 +87,6 @@ int main()
 ## Unguide
 
 ### Soal 1
-> ![Screenshot bagian x](https://github.com/Nashiw/Laporan-Praktikum/blob/main/Modul%207/soal%201.png)
-
 ### stack.h
 ```go
 #ifndef STACK_H
@@ -199,13 +197,11 @@ int main() {
 ```
 
 > Output
-> ![Screenshot bagian x](https://github.com/Nashiw/Laporan-Praktikum/blob/main/Modul%207/jawaban%201.png)
+> ![Screenshot bagian x](../modul7/output/1.png)
 
 Pada program pertama, dibuat sebuah **ADT Stack** yang diimplementasikan menggunakan **array**. Stack memiliki dua atribut utama, yaitu **array info** untuk menyimpan data dan variabel **top** sebagai penunjuk posisi elemen teratas. Fungsi **createStack()** berfungsi untuk menginisialisasi stack agar berada dalam keadaan kosong dengan menetapkan nilai **top = -1**. Operasi **push()** digunakan untuk menambahkan elemen baru ke bagian atas stack selama kapasitas belum mencapai batas maksimum, sedangkan **pop()** berfungsi menghapus elemen paling atas dan mengembalikannya. Prosedur **printInfo()** digunakan untuk menampilkan seluruh isi stack dari elemen teratas hingga terbawah. Selain itu, terdapat juga prosedur **balikStack()** yang bertugas membalik urutan elemen dengan cara memindahkan elemen satu per satu ke stack sementara, lalu mengembalikannya sehingga urutannya menjadi kebalikan dari sebelumnya. Secara keseluruhan, struktur stack pada program ini bekerja berdasarkan prinsip **LIFO (Last In First Out)**, yaitu elemen yang dimasukkan terakhir akan keluar terlebih dahulu.
 
 ### Soal 2
-> ![Screenshot bagian x](https://github.com/Nashiw/Laporan-Praktikum/blob/main/Modul%207/soal%202.png)
-
 ### stack.h
 ```go
 #ifndef STACK_H
@@ -325,13 +321,11 @@ int main() {
 ```
 
 > Output
-> ![Screenshot bagian x](https://github.com/Nashiw/Laporan-Praktikum/blob/main/Modul%207/jawaban%202.png)
+> ![Screenshot bagian x](../modul7/output/2.png)
 
 Pada program kedua, ditambahkan prosedur **pushAscending()** yang berfungsi menjaga agar elemen-elemen dalam stack tetap tersusun secara **menaik (ascending)** dari bawah ke atas setiap kali ada data baru yang dimasukkan. Prosedur ini bekerja dengan membuat **stack sementara** untuk menampung elemen-elemen yang bernilai lebih besar dari data yang akan disisipkan. Setelah posisi yang sesuai ditemukan, data baru dimasukkan ke **stack utama** menggunakan operasi **push()**. Kemudian, seluruh elemen dari stack sementara dipindahkan kembali ke stack utama sehingga urutan datanya tetap terjaga. Dengan cara ini, meskipun dilakukan penyisipan berulang kali, susunan ascending pada stack tidak berubah. Namun, saat isi stack ditampilkan menggunakan **printInfo()**, urutan yang terlihat dari atas ke bawah tampak seperti **descending**, karena sebenarnya urutan ascending-nya terbaca dari bawah ke atas.
 
 ### Soal 3
-> ![Screenshot bagian x](https://github.com/Nashiw/Laporan-Praktikum/blob/main/Modul%207/soal%203.png)
-
 ### stack.h
 ```go
 #ifndef STACK_H
@@ -444,7 +438,7 @@ int main() {
 ```
 
 > Output
-> ![Screenshot bagian x](https://github.com/Nashiw/Laporan-Praktikum/blob/main/Modul%207/jawaban%203.png)
+> ![Screenshot bagian x](../modul7/output/3.png)
 
 Pada program ketiga, ditambahkan prosedur **getInputStream()** yang berfungsi untuk memungkinkan program membaca masukan dari pengguna secara langsung dalam bentuk karakter demi karakter tanpa perlu dipisahkan oleh spasi. Proses pembacaan dilakukan menggunakan **cin.get()**, sehingga setiap karakter yang diketik akan diproses hingga pengguna menekan tombol **ENTER** sebagai tanda akhir input. Jika karakter yang dibaca merupakan digit angka, maka karakter tersebut akan dikonversi menjadi **integer** dan dimasukkan ke dalam stack melalui operasi **push()**. Dengan mekanisme ini, pengguna dapat memasukkan deretan angka seperti sebuah string, misalnya *4729601*, dan setiap digitnya akan otomatis disimpan ke dalam stack sesuai urutan input. Oleh karena itu, **getInputStream()** memberikan cara yang lebih praktis dan efisien bagi pengguna dalam memasukkan data ke stack.
 
