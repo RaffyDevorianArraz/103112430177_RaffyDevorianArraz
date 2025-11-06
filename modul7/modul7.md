@@ -1,5 +1,5 @@
 # <h1 align="center">Laporan Praktikum Modul 7 <br> Stack</h1>
-<p align="center"> Raffy Devorian Araz - 103112430177</p>
+<p align="center"> Raffy Devorian Arraz - 103112430177</p>
 
 ## Dasar Teori
 Dasar teori dari program stack ini adalah bahwa **stack** merupakan salah satu struktur data linear yang bekerja dengan prinsip **LIFO (Last In First Out)**, yaitu elemen yang dimasukkan terakhir akan menjadi elemen pertama yang dikeluarkan. Stack dapat diimplementasikan menggunakan **array** maupun **pointer**, dengan satu variabel penunjuk utama bernama **TOP** yang menunjukkan posisi elemen paling atas. Operasi dasar yang umum digunakan pada stack antara lain **push** (menambahkan elemen ke bagian atas stack), **pop** (menghapus elemen teratas), dan **printInfo** (menampilkan seluruh isi stack). Selain itu, dapat pula ditambahkan operasi tambahan seperti **balikStack** untuk membalik urutan elemen, **pushAscending** untuk menambahkan elemen agar data tetap terurut naik, serta **getInputStream** untuk membaca data input secara berurutan dari pengguna. Jika stack diimplementasikan menggunakan array, maka ukuran stack bersifat tetap, namun akses elemen menjadi lebih cepat karena dapat dilakukan langsung melalui indeks tanpa pengelolaan memori dinamis.
