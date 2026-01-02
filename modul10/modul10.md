@@ -310,7 +310,7 @@ int main() {
 ```
 
 > Output
-> ![Screenshot bagian x](https://github.com/Nashiw/Laporan-Praktikum/blob/main/Modul%2010/jawaban1.png )
+> ![Screenshot bagian x](../modul10/output/1.png)
 
 Kode ini mengimplementasikan **Binary Search Tree (BST)** menggunakan C++ dengan **rekursif**. BST adalah struktur data berbentuk pohon di mana setiap node memiliki nilai yang lebih kecil di subpohon kiri dan lebih besar di subpohon kanan. Fungsi `insertNode` menambahkan node baru secara rekursif sesuai aturan BST, `searchNode` mencari node tertentu, dan `inorderTraversal` menampilkan isi pohon secara terurut. Struktur kode dipisahkan menjadi **header (`bstree.h`)** untuk deklarasi, **implementasi (`bstree.cpp`)** untuk logika fungsi, dan **main (`main.cpp`)** untuk pengujian. Program ini memanfaatkan rekursi untuk menyederhanakan proses traversal dan pencarian, sehingga kode lebih ringkas dan mudah dipahami.
 
@@ -448,7 +448,7 @@ int main() {
 }
 ```
 > Output
-> ![Screenshot bagian x]( https://github.com/Nashiw/Laporan-Praktikum/blob/main/Modul%2010/jawaban2.png)
+> ![Screenshot bagian x](../modul10/output/2.png)
 
 Kode ini mengimplementasikan pohon biner pencarian menggunakan bahasa C++. Setiap node menyimpan nilai dan memiliki anak kiri dan kanan, dengan aturan bahwa nilai di anak kiri lebih kecil dan di anak kanan lebih besar. Fungsi insert menambahkan node baru secara rekursif, find mencari node tertentu, dan InOrder menampilkan isi pohon secara terurut. Selain itu, terdapat fungsi untuk menghitung jumlah node, total nilai semua node, dan kedalaman pohon. Pendekatan rekursif membuat kode lebih ringkas dan memudahkan operasi pada struktur data pohon yang bersifat hierarkis.
 ### Soal 3
@@ -525,7 +525,7 @@ int main() {
 ```
 
 > Output
-> ![Screenshot bagian x](https://github.com/Nashiw/Laporan-Praktikum/blob/main/Modul%2010/jawaban%203.png)
+> ![Screenshot bagian x](../modul10/output/3.png)
 Kode ini membuat pohon biner dan melakukan traversal secara iteratif menggunakan stack. Fungsi preorderIterative menampilkan node dimulai dari akar kemudian anak kiri dan kanan, sedangkan fungsi postorderIterative menampilkan node mulai dari anak hingga akar. Pendekatan iteratif ini menghindari penggunaan rekursi sehingga meminimalkan penggunaan memori call stack. Struktur pohon yang digunakan berbeda dari contoh sebelumnya untuk menunjukkan fleksibilitas traversal pada berbagai bentuk pohon biner.
 ## Referensi
 1. https://www.w3schools.com/dsa/dsa_theory_trees.php
