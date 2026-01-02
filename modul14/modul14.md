@@ -458,7 +458,7 @@ int main() {
 
 ```
 > Output
-> ![Screenshot bagian x](https://github.com/Nashiw/Laporan-Praktikum/blob/main/Modul%2014/jawaban%20123.png)
+> ![Screenshot bagian x](../modul14/output/14.png)
 
 Graph adalah struktur data non-linear yang terdiri dari simpul atau node yang saling terhubung oleh sisi atau edge. Graph dapat bersifat terarah atau tidak terarah dan digunakan untuk merepresentasikan hubungan antar objek seperti jaringan, rute, atau dependensi. Implementasi graph bisa menggunakan daftar ketetanggaan atau matriks ketetanggaan, dengan daftar ketetanggaan lebih efisien untuk graph yang jarang memiliki edge. Algoritma dasar pada graph termasuk penelusuran kedalaman untuk menjelajahi node secara mendalam, penelusuran lebar untuk menjelajahi node per level, serta algoritma pengurutan topologis untuk menyusun node pada graph terarah tanpa siklus sesuai urutan ketergantungan.
 
