@@ -418,7 +418,7 @@ int main() {
 ```
 
 > Output
-> ![Screenshot bagian x](https://github.com/Nashiw/Laporan-Praktikum/blob/main/Modul%2013/jawaban%202.png)
+> ![Screenshot bagian x](../modul13/output/1.png)
 
 Multi Linked List adalah struktur data yang mengembangkan konsep linked list biasa dengan memungkinkan setiap elemen induk memiliki list anak yang terhubung, sehingga membentuk hubungan hierarkis. Struktur ini memudahkan pengelolaan data yang memiliki relasi satu-ke-banyak, seperti data keluarga dengan anggota, karena setiap node induk menyimpan informasi dan pointer ke node anak. Dengan Multi Linked List, operasi seperti menambah, menghapus, dan mencari data dapat dilakukan baik di level induk maupun anak secara efisien, sehingga sangat cocok untuk mengorganisasi data kompleks yang memiliki keterkaitan antar elemen.
 
@@ -671,13 +671,10 @@ int main() {
 ```
 
 > Output
-> ![Screenshot bagian x](https://github.com/Nashiw/Laporan-Praktikum/blob/main/Modul%2013/jawaban%203.png)
+> ![Screenshot bagian x](../modul13/output/2.png)
 
 Program ini menggunakan struktur data circular linked list untuk menyimpan informasi buku di perpustakaan, di mana setiap node menyimpan data seperti judul, kode buku, jenis, dan harga. Circular linked list dipilih agar elemen terakhir selalu terhubung kembali ke elemen pertama, mempermudah traversal dan manipulasi data tanpa perlu memeriksa akhir list. Program memungkinkan penambahan data di awal, akhir, atau setelah node tertentu, pencarian berdasarkan kode buku, penghapusan data, serta menampilkan semua data dengan rapi. Dengan cara ini, manajemen koleksi buku menjadi lebih terstruktur, efisien, dan mudah dioperasikan.
 
 ## Referensi
 1. https://www.w3schools.com/dsa/dsa_data_linkedlists_types.php
 2. https://www.w3schools.com/dsa/trydsa.php?filename=demo_linkedlists_circsingly
-3. https://www.w3schools.com/dsa/dsa_theory_linkedlists.php
-4. https://www.w3schools.com/dsa/dsa_algo_linkedlists_operations.php]
-5. https://www.w3schools.com/dsa/
