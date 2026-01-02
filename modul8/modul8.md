@@ -224,7 +224,7 @@ int main() {
 
 ```
 > Output
-> ![Screenshot bagian x](https://github.com/Nashiw/Laporan-Praktikum/blob/main/Modul%208/jawaban%201.png)
+> ![Screenshot bagian x](../modul8/output/1.png)
 
 Program ini dibuat menggunakan array statis di mana head selalu berada pada indeks awal (0), sedangkan tail bergerak maju saat enqueue. Ketika dequeue, head hanya naik sementara, tetapi jika queue kembali kosong, head dan tail di-reset ke −1. Cara ini sederhana namun tidak efisien karena ruang kosong di depan array tidak bisa dipakai kembali; akibatnya queue bisa dianggap penuh meskipun masih ada slot kosong setelah beberapa operasi dequeue.
 
@@ -328,7 +328,7 @@ int main() {
 ```
 
 > Output
-> ![Screenshot bagian x](https://github.com/Nashiw/Laporan-Praktikum/blob/main/Modul%208/jawaban%202.png)
+> ![Screenshot bagian x](../modul8/output/2.png)
 
 Program ini baik head maupun tail bergerak maju mengikuti operasi enqueue dan dequeue. Pendekatan ini lebih realistis karena elemen yang keluar benar-benar dilewati oleh head. Namun tetap tidak efisien karena array tidak berputar; ketika tail mencapai ujung array, queue dianggap penuh walaupun masih ada ruang kosong di depan akibat dequeuing.
 
@@ -408,7 +408,7 @@ void printInfo(Queue Q){
 ```
 
 > Output
-> ![Screenshot bagian x](https://github.com/Nashiw/Laporan-Praktikum/blob/main/Modul%208/jawaban%203.png)
+> ![Screenshot bagian x](../modul8/output/3.png)
 
 Program ini menggunakan konsep circular sehingga head dan tail berputar kembali ke indeks 0 menggunakan operasi modulo. Ruang kosong akibat dequeue dapat digunakan kembali, dan queue hanya penuh jika (tail + 1) % MAX == head. Implementasi ini paling efisien karena memaksimalkan penggunaan array dan sangat cocok untuk sistem antrian yang berjalan terus-menerus.
 
